@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery',true)
-mongoose.connect('mongodb://localhost/Naukripro');
+mongoose.connect('mongodb+srv://avinashsahni:kingisback12@cluster0.3lslu30.mongodb.net/');
 
 const db = mongoose.connection;
 
